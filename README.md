@@ -1,7 +1,8 @@
 
 1. Deoplyment instructions:
 	1) Make sure docker is installed on the server
-	2) In the root folder deploy the proejct with the following command 
+	2) In the root folder build and deploy the proejct with the following command 
+	   - mvn clean install
 	   - docker build -f Dockerfile -t xp-managment-docker . 
 	   - docker-compose up
 2. Test api with postman:
