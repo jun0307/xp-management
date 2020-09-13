@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  ## comment this after first time creation
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  main:
+    allow-bean-definition-overriding: true
+
+  datasource:
+    url: jdbc:postgresql://192.168.1.248:5432/xp-management
+    username: postgres
+    password: postgres
+
+
+
