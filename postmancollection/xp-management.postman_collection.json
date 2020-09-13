@@ -1,42 +1,42 @@
 {
-	"id": "7fc4d948-b3c0-a317-7b2f-9de8e358a46f",
+	"id": "6114ba6f-e486-f897-7d87-7db20b3b240c",
 	"name": "xp-management",
 	"description": "",
 	"order": [
-		"490a34e4-e947-8710-be9b-822325ea3abd",
-		"c70a255e-f57c-fa32-863e-9a7ed3076b04"
+		"4599524f-b1ed-dcd2-709b-f544a415c509",
+		"7229eb43-7d7b-d1aa-29c0-c17b3bec4dc1"
 	],
 	"folders": [],
 	"folders_order": [],
 	"timestamp": 1599985811177,
 	"owner": 0,
 	"public": false,
+	"hasRequests": true,
 	"requests": [
 		{
-			"id": "490a34e4-e947-8710-be9b-822325ea3abd",
+			"id": "4599524f-b1ed-dcd2-709b-f544a415c509",
 			"headers": "",
 			"headerData": [],
-			"url": "",
+			"url": "http://127.0.0.1:8080/experience/1",
 			"queryParams": [],
+			"preRequestScript": null,
 			"pathVariables": {},
 			"pathVariableData": [],
-			"preRequestScript": null,
 			"method": "GET",
-			"collectionId": "7fc4d948-b3c0-a317-7b2f-9de8e358a46f",
 			"data": null,
 			"dataMode": "params",
-			"name": "get experience",
-			"description": "",
-			"descriptionFormat": "html",
-			"time": 1599985856106,
 			"version": 2,
-			"responses": [],
 			"tests": null,
 			"currentHelper": "normal",
-			"helperAttributes": {}
+			"helperAttributes": {},
+			"time": 1600002209022,
+			"name": "get experience",
+			"description": "",
+			"collectionId": "6114ba6f-e486-f897-7d87-7db20b3b240c",
+			"responses": []
 		},
 		{
-			"id": "c70a255e-f57c-fa32-863e-9a7ed3076b04",
+			"id": "7229eb43-7d7b-d1aa-29c0-c17b3bec4dc1",
 			"headers": "Content-Type: application/json\n",
 			"headerData": [
 				{
@@ -46,7 +46,7 @@
 					"enabled": true
 				}
 			],
-			"url": "http://127.0.0.1:8888/experience/1",
+			"url": "http://127.0.0.1:8080/experience/1",
 			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
@@ -58,12 +58,12 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1599985921099,
+			"time": 1600002212812,
 			"name": "get experience copy",
 			"description": "",
-			"collectionId": "7fc4d948-b3c0-a317-7b2f-9de8e358a46f",
+			"collectionId": "6114ba6f-e486-f897-7d87-7db20b3b240c",
 			"responses": [],
-			"rawModeData": "{\r\n  \"points\": 10\r\n}"
+			"rawModeData": "{\r\n  \"points\": 2\r\n}"
 		}
 	]
 }
